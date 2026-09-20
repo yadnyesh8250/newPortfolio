@@ -51,6 +51,16 @@ export const kiroKB = [
     tags: ['projects'],
   },
   {
+    q: 'certificates',
+    a: 'Key credentials: Frontend Developer (React) from HackerRank, AI Foundations from IBM-SkillsBuild, ET AI Hackathon 2.0 (The Economic Times), Web Development Internship from InAmigos Foundation, CODE VYUH from GDGoC NMIMS, and IIT Gandhinagar Hackathon. View them all on the Credentials page.',
+    tags: ['credentials', 'achievements'],
+  },
+  {
+    q: 'hackerrank',
+    a: 'Verified Frontend Developer (React) certificate from HackerRank (ID: 8CBEBA672022). Verify at https://www.hackerrank.com/certificates/8cbeba672022',
+    tags: ['credentials'],
+  },
+  {
     q: '__default__',
     a: "I don't have an answer for that yet — you can train me by entering: question||answer in the Train box.",
     tags: ['meta'],
