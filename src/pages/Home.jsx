@@ -6,6 +6,7 @@ import {
   ClipboardList,
   Code2,
   Cpu,
+  ExternalLink,
   FileText,
   FlaskConical,
   GitBranch,
@@ -187,6 +188,31 @@ export default function Home() {
                     {tag}
                   </Chip>
                 ))}
+              </div>
+
+              <div className="project-card-actions">
+                <a
+                  href={project.code}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="project-action-link"
+                  title="View Source Code"
+                >
+                  <GitBranch size={13} />
+                  Code
+                </a>
+                {project.live ? (
+                  <a
+                    href={project.live}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="project-action-link live"
+                    title="Open Live Application"
+                  >
+                    <ExternalLink size={13} />
+                    Live Demo
+                  </a>
+                ) : null}
               </div>
             </article>
           ))}

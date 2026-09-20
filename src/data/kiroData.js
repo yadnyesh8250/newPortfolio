@@ -27,17 +27,27 @@ export const kiroKB = [
   },
   {
     q: 'projects',
-    a: 'Key projects: RSFA (Rising Sun Football Academy), Blogify (blogging platform), CampusSync (Lost & Found). Visit the Projects page for details.',
+    a: 'Key projects: DHARA (Digital Twin Analyst Mode & Environmental Policy Simulator), RSFA (Rising Sun Football Academy), Blogify (blogging platform), CampusSync (Lost & Found). Visit the Projects page for details.',
+    tags: ['projects'],
+  },
+  {
+    q: 'dhara',
+    a: 'DHARA (Digital Twin Analyst Mode) is a real-time 3D spatial digital twin and environmental policy simulator built with MapLibre GL JS, Open-Meteo telemetry failover, US EPA AQI physics engine, and AI Policy Copilot. Try the live demo at https://dhara-blush.vercel.app/',
     tags: ['projects'],
   },
   {
     q: 'lost and found',
-    a: 'CampusSync is a lost & found system built with React + Node.js + MongoDB.',
+    a: 'CampusSync is a lost & found system built with React + Node.js + MongoDB. Live demo: https://lost-and-found-jet-eight.vercel.app/',
+    tags: ['projects'],
+  },
+  {
+    q: 'rsfa',
+    a: 'RSFA (Rising Sun Football Academy) is a full-stack football academy platform built with React, Node.js, Express.js, and MongoDB. Live demo: https://rising-sun-fa.vercel.app/',
     tags: ['projects'],
   },
   {
     q: 'blog',
-    a: 'Blogify is a MERN-based blogging platform supporting auth and CRUD posts.',
+    a: 'Blogify is a MERN-based blogging platform supporting auth and CRUD posts. Live demo: https://blogginplatform-aqkw.vercel.app/',
     tags: ['projects'],
   },
   {
