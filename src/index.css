@@ -1463,6 +1463,51 @@ canvas {
   background: var(--green);
 }
 
+.work-card.cyan {
+  border-color: rgba(89, 217, 255, 0.25);
+}
+
+.work-card.cyan:hover {
+  border-color: rgba(89, 217, 255, 0.45);
+  box-shadow: 0 24px 90px rgba(0, 0, 0, 0.34), 0 0 40px rgba(89, 217, 255, 0.15);
+}
+
+.work-card.cyan .scope-tabs span:first-child {
+  color: #041014;
+  border-color: var(--cyan);
+  background: var(--cyan);
+}
+
+.work-card.amber {
+  border-color: rgba(255, 154, 66, 0.25);
+}
+
+.work-card.amber:hover {
+  border-color: rgba(255, 154, 66, 0.45);
+  box-shadow: 0 24px 90px rgba(0, 0, 0, 0.34), 0 0 40px rgba(255, 154, 66, 0.15);
+}
+
+.work-card.amber .scope-tabs span:first-child {
+  color: #041014;
+  border-color: var(--amber);
+  background: var(--amber);
+}
+
+.work-card.violet {
+  border-color: rgba(154, 123, 255, 0.25);
+}
+
+.work-card.violet:hover {
+  border-color: rgba(154, 123, 255, 0.45);
+  box-shadow: 0 24px 90px rgba(0, 0, 0, 0.34), 0 0 40px rgba(154, 123, 255, 0.15);
+}
+
+.work-card.violet .scope-tabs span:first-child {
+  color: #041014;
+  border-color: var(--violet);
+  background: var(--violet);
+}
+
 body[data-theme="light"] .work-card .scope-tabs span {
   color: rgba(16, 32, 38, 0.72);
   border-color: rgba(0, 143, 184, 0.2);

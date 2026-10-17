@@ -27,8 +27,18 @@ export const kiroKB = [
   },
   {
     q: 'projects',
-    a: 'Key projects: DHARA (Digital Twin Analyst Mode & Environmental Policy Simulator), RSFA (Rising Sun Football Academy), Blogify (blogging platform), CampusSync (Lost & Found). Visit the Projects page for details.',
+    a: 'Key projects: DHARA (Digital Twin Analyst Mode & Environmental Policy Simulator), ChillLang (Compiler Studio & Interactive Workbench), RSFA (Rising Sun Football Academy), Blogify (blogging platform), CampusSync (Lost & Found). Visit the Projects page for details.',
     tags: ['projects'],
+  },
+  {
+    q: 'chilllang',
+    a: 'ChillLang is an educational programming language and multi-phase compiler studio (CS-421) featuring live lexical/AST analysis, Three-Address Code (TAC), -O2 optimization passes, and JavaScript code generation. Live demo: https://yadnyesh8250.github.io/ChillLang/ChillLang/web/index.html | Repo: https://github.com/yadnyesh8250/ChillLang',
+    tags: ['projects', 'compiler'],
+  },
+  {
+    q: 'compiler',
+    a: 'ChillLang is Yadnyesh\'s compiler project exploring lexical analysis, LALR(1) parsing, AST generation, semantic checks, TAC intermediate representation, and target code generation to JavaScript ES2024. Live workbench: https://yadnyesh8250.github.io/ChillLang/ChillLang/web/index.html',
+    tags: ['projects', 'compiler'],
   },
   {
     q: 'dhara',

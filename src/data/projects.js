@@ -20,6 +20,26 @@ export const projects = [
     live: 'https://dhara-blush.vercel.app/',
   },
   {
+    title: 'ChillLang (Compiler Studio & Interactive Workbench)',
+    description:
+      'A multi-phase educational programming language and interactive compiler workbench designed for CS-421 (Compiler Design). Exposes internal compilation phases from source code to JavaScript ES2024 / WASM-MVP target code, featuring live token inspection, AST visualization, semantic analysis, symbol tables, Three-Address Code (TAC), and -O2 optimization folding.',
+    features: [
+      'Multi-Phase Compiler Pipeline: Implements complete lexical analysis, LALR(1) parsing, AST generation, semantic checks, intermediate code generation (TAC), and code optimization passes.',
+      'Interactive Compiler Studio: Web-based IDE with multi-file buffer support (main.chill, math_lib.chill), real-time compilation daemon, and Monaco-style code editor.',
+      'Lexical & Syntax Analyzer: Flex-compatible DFA tokenizer with token stream inspection (lexeme, type, source position, byte size) and structural AST generation.',
+      'Type System & Semantic Analysis: Static type checking for primitives and user tasks, scope resolution, identifier validation, and comprehensive error diagnostics.',
+      'Intermediate Representation (TAC): Generates clean Three-Address Code with symbol table inspection for scopes, memory offsets, and identifier metadata.',
+      'Optimization Engine (-O2 TAC): Advanced optimization passes including constant folding, constant propagation, algebraic simplification, and dead-code elimination.',
+      'Target Code Generator: Transpiles validated AST/TAC to modern JavaScript (ES2024) and target architecture specifications (WASM-MVP).',
+      'Diagnostic Test Bench: Integrated test suite, sample code library (recursion, factorial, loops), performance metrics, and compilation logs with zero-latency visual feedback.',
+    ],
+    tags: ['Compiler Design', 'LALR(1) Parser', 'Three-Address Code (TAC)', 'AST & Lexer', 'JavaScript ES2024', 'Optimization (-O2)'],
+    tone: 'cyan',
+    image: '/project/chilllang.png',
+    code: 'https://github.com/yadnyesh8250/ChillLang',
+    live: 'https://yadnyesh8250.github.io/ChillLang/ChillLang/web/index.html',
+  },
+  {
     title: 'RSFA - Rising Sun Football Academy',
     description:
       'Developed a full-stack football academy platform with responsive UI, optimized performance, and scalable backend architecture. Implemented authentication, dynamic content management, and modern user experience across devices.',
